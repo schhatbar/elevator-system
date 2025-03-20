@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1>Elevator Exercise</h1>
+
+    <table class="elevator-table">
+        <thead>
+            <tr>
+                <th>Floor</th>
+                <th>Elevator 1</th>
+                <th>Elevator 2</th>
+                <th>Elevator 3</th>
+                <th>Elevator 4</th>
+                <th>Elevator 5</th>
+                <th>Call Button</th>
+                <th>Timer</th>
+            </tr>
+        </thead>
+        <tbody id="floor-table-body">
+            <!-- Predefined floors -->
+            <tr data-floor="9">
+                <td>9</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="8">
+                <td>8</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="7">
+                <td>7</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="6">
+                <td>6</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="5">
+                <td>5</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="4">
+                <td>4</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="3">
+                <td>3</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="2">
+                <td>2</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="1">
+                <td>1</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+            <tr data-floor="0">
+                <td>G</td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td class="elevator-cell"></td>
+                <td><button class="call-button">Call</button></td>
+                <td class="timer-cell"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <audio id="arrival-sound" src="assets/ding.mp3"></audio>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
